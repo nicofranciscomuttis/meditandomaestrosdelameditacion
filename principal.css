@@ -1,0 +1,38 @@
+/* aplicando estilos a elementos html */
+
+body {background-color:#E8DB8D; background-image:url("fondos/imagen de fondo");}
+
+/* aplicando estilos a capas */
+
+
+#cabecera h2 {color:red; text-align:center; }
+#cabecera li {display:inline-block;}
+#cabecera li {border-style:double;
+    border-color:blue;
+    border-width:5px;
+    padding:9px;border-radius: 6;
+background-color:rgba(152,124,89,0.5);margin-left: 8px;margin-right:6px}
+
+#cabecera li a {color:red;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size:20px;
+text-decoration: none;}
+
+#cabecera li:hover{background-color: #82F912;}
+
+#contenido {background-color:#82F912 ;}
+#contenido h1 {text-align: center;}
+#contenido img {margin-left:350px;}
+#contenido p {background-color:#F7AA0F ;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 25px;text-align: justify; text-indent: 50px; margin-left: 50px;margin-right: 50px;
+            line-height: 2.1;}
+
+#pie {background-color:#9abd7a ;}
+table {width:80%; margin: 0px auto; border-color:#e6e9ec ; border-width:6px ; border-style:solid ; border-collapse:separate; border-spacing:10px 35px; }
+td {text-align:center; border-color: #566574; border-width:2px ; border-style:solid ;}
+
+
+#pie h2 {color:#D4F70F; text-align:center; }
+
+
+/* aplicando estilos a clases */
+
+.derecha {text-align:right;}
